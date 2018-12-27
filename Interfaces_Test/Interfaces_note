@@ -1,0 +1,6 @@
+			Interfaces
+👀 InterFace is a reference type in java.- is similar to class.
+👀It’s a collection of abstract method. 
+👀A class implements an interface, thereby inheriting the abstract methods of the interface. 
+👀Writing an interface is similar to writing a class but a class describes the attributes and behaviors of an object.
+👀An interface contains behaviors that a class implements.
