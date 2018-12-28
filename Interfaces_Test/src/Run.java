@@ -1,0 +1,15 @@
+
+public class Run {
+	public static void main(String args[]) {
+		Dog dog = new Dog();
+		
+
+		dog.eat();
+		dog.makesound();
+		dog.walk();
+		dog.run();
+
+	}
+
+}
+ 

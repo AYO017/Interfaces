@@ -40,9 +40,9 @@ System.out.println(MyInterface.hello);
     }
 }		
 
-Notice the implements MyInterface part of the above class declaration. 
-This signals to the Java compiler that
-The MyInterfaceImpl class implements the MyInterface interface.
+👀Notice the implements MyInterface part of the above class declaration. 
+👀This signals to the Java compiler that
+👀The MyInterfaceImpl class implements the MyInterface interface.
 
 ************************************************************************************************************************
 
