@@ -1,6 +1,50 @@
-			Interfaces
+									Interfaces
 👀 InterFace is a reference type in java.- is similar to class.
-👀It’s a collection of abstract method. 
-👀A class implements an interface, thereby inheriting the abstract methods of the interface. 
+👀except a Java interface can only contain method signatures and fields.
+👀A class implements an interface, thereby inheriting the abstract methods of the interface.
 👀Writing an interface is similar to writing a class but a class describes the attributes and behaviors of an object.
 👀An interface contains behaviors that a class implements.
+************************************************************************************************************************
+				 					Java Interface Example 
+public interface MyInterface {
+
+    public String hello = "Hello";
+
+    public void sayHello();
+}
+****************************************KEYWORD*************************************************************************
+👀An Interface is declared using the java #interface# keyword. 
+👀An Interface are set to private as default.
+👀Interface can be declared using PUBLIC. this makes it visible to other package
+
+👀The interface example above contains one variable and one method. 
+👀The variable can be accessed directly from the interface, like this:
+     System.out.println(MyInterface.hello);
+     #interface#
+     #implements#
+    interface can have more than one implements. which are separated by comma.
+    
+  Example
+    implements MyInterface, MyOtherInterface {
+    if the interface are not not located in the same package. they will need to be import the interfaces. 
+    
+   ####Example##### 
+    import com.jenkov.package1.MyInterface;
+    
+    
+
+***************************************Implementing an Interface********************************************************
+public class MyInterfaceImpl implements MyInterface {
+public void sayHello() {
+System.out.println(MyInterface.hello);
+    }
+}		
+
+Notice the implements MyInterface part of the above class declaration. 
+This signals to the Java compiler that
+The MyInterfaceImpl class implements the MyInterface interface.
+
+************************************************************************************************************************
+
+
+		
